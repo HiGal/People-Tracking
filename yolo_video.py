@@ -17,6 +17,8 @@ ap.add_argument("-y", "--yolo", required=True,
                 help="путь к файлам конфигурации сети")
 ap.add_argument("-c", "--confidence", type=float, default=0.7,
                 help="минимальная вероятность для фильтрации слабых обнаружений")
+ap.add_argument("-t", "--threshold", type=float, default=0.3,
+                help="порог для применения non-maxima suppression")
 args = vars(ap.parse_args())
 
 # Загрузка классовых меток датасета COCO на котором была обучена модель YOLO
