@@ -1,0 +1,24 @@
+# Installation guide
+1. Clone repository:
+
+    ```
+    git clone https://github.com/HiGal/People-Tracking.git
+    ```
+2. Cd to the cloned folder and install requirements
+
+    ```
+    cd path/to/<rep-name>/
+    pip install -r requierements.txt
+    ```    
+
+3. Download weights of the model into **root-directory/cfg/**
+
+    ```
+    wget https://pjreddie.com/media/files/yolov3.weights
+    ```
+
+4. Run on the video:
+
+    ```
+    python yolo_video.py --input videos/<your-video> --output output/<name of your video> --yolo cfg
+    ```
