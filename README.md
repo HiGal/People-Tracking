@@ -20,5 +20,5 @@
 4. Run on the video:
 
     ```
-    python yolo_video.py --input videos/<your-video> --output output/<name of your video> --yolo cfg
+    python yolo_video.py --input input/<your-video> --output output/<name of your video> --yolo cfg
     ```
