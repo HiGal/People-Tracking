@@ -8,7 +8,7 @@
 
     ```
     cd path/to/People-Tracking/
-    pip install -r requierements.txt
+    pip install -r requirements.txt
     ```    
 
 3. Download weights of the model into **People-Tracking/cfg/**
