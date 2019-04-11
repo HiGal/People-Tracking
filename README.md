@@ -7,11 +7,11 @@
 2. Cd to the cloned folder and install requirements
 
     ```
-    cd path/to/<rep-name>/
+    cd path/to/People-Tracking/
     pip install -r requierements.txt
     ```    
 
-3. Download weights of the model into **root-directory/cfg/**
+3. Download weights of the model into **People-Tracking/cfg/**
 
     ```
     wget https://pjreddie.com/media/files/yolov3.weights
